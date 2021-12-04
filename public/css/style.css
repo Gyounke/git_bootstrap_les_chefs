@@ -17242,8 +17242,68 @@ h2, .h2 {
 
 header {
   height: 100vh;
+  width: 100vw;
   background: linear-gradient(rgba(34, 34, 46, 0.7), rgba(34, 34, 46, 0.7)), url("../../public/images/banner1.jpg");
   background-size: 100% 100%;
+}
+header .decoration {
+  background: url("../../public/images/bottom_decoration_img.png");
+  background-repeat: repeat-x;
+  height: 20px;
+}
+
+.part1 {
+  background: url("../../public/images/main_bg.jpg");
+  margin: 0;
+  padding: 2%;
+}
+.part1 .container {
+  background: url("../../public/images/main_bg.jpg");
+}
+.part1 .container .part1_sheet {
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(50px, auto);
+  grid-auto-columns: minmax(50px, auto);
+}
+.part1 .container .part1_sheet .deco-top-left {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.part1 .container .part1_sheet .part1_title {
+  text-align: center;
+  grid-column: 4/7;
+  grid-row: 1/2;
+  text-align: center;
+}
+.part1 .container .part1_sheet .deco-top-right {
+  grid-column: 10/11;
+  grid-row: 1/2;
+}
+.part1 .container .part1_sheet .part1_text {
+  text-align: center;
+  grid-column: 2/10;
+  grid-row: 2/4;
+  text-align: center;
+}
+.part1 .container .part1_sheet .part1_menu {
+  grid-column: 1/11;
+  grid-row: 5/12;
+}
+.part1 .container .part1_sheet .part1_menu_title {
+  grid-column: 4/7;
+  grid-row: 4/5;
+}
+.part1 .container .part1_sheet .deco-bottom-left {
+  grid-column: 1/2;
+  grid-row: 12/13;
+}
+.part1 .container .part1_sheet .deco-bottom-right {
+  grid-column: 10/11;
+  grid-row: 12/13;
 }
 
 .part3 {
@@ -17259,6 +17319,7 @@ header {
   grid-template-rows: repeat(8, 1fr);
   grid-gap: 10px;
   grid-auto-rows: minmax(50px, auto);
+  grid-auto-columns: minmax(50px, auto);
 }
 .part3 .container .part3_sheet .deco-top-left {
   grid-column: 1/2;
@@ -17286,7 +17347,7 @@ header {
   text-align: center;
 }
 .part3 .container .part3_sheet .blog_links {
-  grid-column: 3/9;
+  grid-column: 1/11;
   grid-row: 6/8;
 }
 .part3 .container .part3_sheet .know_more_button {
