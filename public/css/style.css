@@ -17246,6 +17246,14 @@ header {
   background: linear-gradient(rgba(34, 34, 46, 0.7), rgba(34, 34, 46, 0.7)), url("../../public/images/banner1.jpg");
   background-size: 100% 100%;
 }
+header nav .container-fluid .collapse ul li, header nav .container-sm .collapse ul li, header nav .container-md .collapse ul li, header nav .container-lg .collapse ul li, header nav .container-xl .collapse ul li, header nav .container-xxl .collapse ul li {
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+}
+header nav .container-fluid .collapse ul img, header nav .container-sm .collapse ul img, header nav .container-md .collapse ul img, header nav .container-lg .collapse ul img, header nav .container-xl .collapse ul img, header nav .container-xxl .collapse ul img {
+  margin-left: 4%;
+  margin-right: 4%;
+}
 header .decoration {
   background: url("../../public/images/bottom_decoration_img.png");
   background-repeat: repeat-x;
@@ -17266,8 +17274,8 @@ header .decoration {
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: repeat(12, 1fr);
   grid-gap: 10px;
-  grid-auto-rows: minmax(50px, auto);
-  grid-auto-columns: minmax(50px, auto);
+  grid-auto-rows: minmax(20px, auto);
+  grid-auto-columns: minmax(20px, auto);
 }
 .part1 .container .part1_sheet .deco-top-left {
   grid-column: 1/2;
@@ -17304,6 +17312,25 @@ header .decoration {
 .part1 .container .part1_sheet .deco-bottom-right {
   grid-column: 10/11;
   grid-row: 12/13;
+}
+.part1 .container .part1_menu .container-fluid .tab-content .tab-pane .row .col-6 .menu .col-3, .part1 .container .part1_menu .container-sm .tab-content .tab-pane .row .col-6 .menu .col-3, .part1 .container .part1_menu .container-md .tab-content .tab-pane .row .col-6 .menu .col-3, .part1 .container .part1_menu .container-lg .tab-content .tab-pane .row .col-6 .menu .col-3, .part1 .container .part1_menu .container-xl .tab-content .tab-pane .row .col-6 .menu .col-3, .part1 .container .part1_menu .container-xxl .tab-content .tab-pane .row .col-6 .menu .col-3 {
+  display: flex;
+  justify-content: flex-end;
+  padding: 2%;
+}
+.part1 .container .part1_menu .container-fluid .tab-content .tab-pane .row .col-6 .menu .col-3 img, .part1 .container .part1_menu .container-sm .tab-content .tab-pane .row .col-6 .menu .col-3 img, .part1 .container .part1_menu .container-md .tab-content .tab-pane .row .col-6 .menu .col-3 img, .part1 .container .part1_menu .container-lg .tab-content .tab-pane .row .col-6 .menu .col-3 img, .part1 .container .part1_menu .container-xl .tab-content .tab-pane .row .col-6 .menu .col-3 img, .part1 .container .part1_menu .container-xxl .tab-content .tab-pane .row .col-6 .menu .col-3 img {
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+}
+.part1 .container .part1_menu .container-fluid .tab-content .tab-pane .row .col-6 .menu .col-1, .part1 .container .part1_menu .container-sm .tab-content .tab-pane .row .col-6 .menu .col-1, .part1 .container .part1_menu .container-md .tab-content .tab-pane .row .col-6 .menu .col-1, .part1 .container .part1_menu .container-lg .tab-content .tab-pane .row .col-6 .menu .col-1, .part1 .container .part1_menu .container-xl .tab-content .tab-pane .row .col-6 .menu .col-1, .part1 .container .part1_menu .container-xxl .tab-content .tab-pane .row .col-6 .menu .col-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 2%;
+}
+.part1 .container .part1_menu .container-fluid .tab-content .tab-pane .row .col-6 .menu .col-1 p, .part1 .container .part1_menu .container-sm .tab-content .tab-pane .row .col-6 .menu .col-1 p, .part1 .container .part1_menu .container-md .tab-content .tab-pane .row .col-6 .menu .col-1 p, .part1 .container .part1_menu .container-lg .tab-content .tab-pane .row .col-6 .menu .col-1 p, .part1 .container .part1_menu .container-xl .tab-content .tab-pane .row .col-6 .menu .col-1 p, .part1 .container .part1_menu .container-xxl .tab-content .tab-pane .row .col-6 .menu .col-1 p {
+  background-color: #aaa5a5;
 }
 
 .part3 {
@@ -17399,10 +17426,6 @@ footer .decoration {
   background: url("../../public/images/footer_bottom_decoration_img.png");
   background-repeat: repeat-x;
   height: 20px;
-}
-footer .row .col-4 .instagram_img .row img {
-  height: 70px;
-  width: 100px;
 }
 footer .bordure_rouge {
   height: 80px;
