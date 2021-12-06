@@ -13,67 +13,69 @@
     <!--Header START-->
 
     <header class="d-flex flex-column align-items-center">
-        <!--Header START-->
-        <div class="nav_container d-flex">
-            <!--Navbar START-->
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container-fluid">
-                    <div class="collapse navbar-collapse d-flex justify-content-between container-fluid"
-                        id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item mt-3 ">
-                                <a class="nav-link active text-uppercase text-white" aria-current="page"
-                                    href="#">Home</a>
-                            </li>
-                            <li class="nav-item mt-3">
-                                <a class="nav-link text-uppercase text-white" href="#">about us</a>
-                            </li>
+        <div class="center">
+            <div class="nav_container container-fluid d-flex container-fluid justify-content-center align-items-center">
+                <!--Navbar START-->
+                <nav class="navbar navbar-expand-md navbar-light container-fluid">
+                    <img src="./public/images/logo.png" alt="" class="navbar-brand d-md-none kaboom">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
+                    <div class="container-fluid">                       
+                        <div class="collapse navbar-collapse container-fluid" id="navbarTogglerDemo01">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <!--Navbar links START-->
+                                <li class="nav-item mt-3 ">
+                                    <a class="nav-link active text-uppercase text-white" aria-current="page"
+                                        href="#">Home</a>
+                                </li>
+                                <li class="nav-item mt-3">
+                                    <a class="nav-link text-uppercase text-white" href="#">about us</a>
+                                </li>
 
-                            <li class="nav-item mt-3">
-                                <a class="nav-link disabled text-uppercase text-white">menu list</a>
-                            </li>
-                            <li class="nav-item mt-3">
-                                <a class="nav-link disabled text-uppercase text-white">team</a>
-                            </li>
-                        </ul>
+                                <li class="nav-item mt-3">
+                                    <a class="nav-link disabled text-uppercase text-white">menu list</a>
+                                </li>
+                                <li class="nav-item mt-3">
+                                    <a class="nav-link disabled text-uppercase text-white">team</a>
+                                </li>
+
+
+                                <img src="./public/images/logo.png" alt="" class="navbar-brand">
+
+
+                                <li class="nav-item mt-3">
+                                    <a class="nav-link disabled text-uppercase text-white">reservation</a>
+                                </li>
+                                <li class="nav-item mt-3">
+                                    <a class="nav-link disabled text-uppercase text-white">blog</a>
+                                </li>
+                                <li class="nav-item mt-3">
+                                    <a class="nav-link disabled text-uppercase text-white">testimonials</a>
+                                </li>
+                                <li class="nav-item mt-3">
+                                    <a class="nav-link disabled text-uppercase text-white">contact us</a>
+                                </li>
+                            </ul>
+                            <!--Navbar links END-->
+                        </div>
                     </div>
-                </div>
-            </nav>
-
-            <img src="./public/images/logo.png" alt="">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container-fluid">
-                    <div class="collapse navbar-collapse d-flex justify-content-between container-fluid"
-                        id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
-                            <li class="nav-item mt-3">
-                                <a class="nav-link disabled text-uppercase text-white">reservation</a>
-                            </li>
-                            <li class="nav-item mt-3">
-                                <a class="nav-link disabled text-uppercase text-white">blog</a>
-                            </li>
-                            <li class="nav-item mt-3">
-                                <a class="nav-link disabled text-uppercase text-white">testimonials</a>
-                            </li>
-                            <li class="nav-item mt-3">
-                                <a class="nav-link disabled text-uppercase text-white">contact us</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+                </nav>
+            </div>
         </div>
         <!--Navbar END-->
         <!--Carousel START-->
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide p-5" data-bs-ride="carousel">
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active rounded-circle" style="height: 10px; width: 10px;"
                     aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
+                    aria-label="Slide 2"  class="rounded-circle" style="height: 10px; width: 10px;"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
+                    aria-label="Slide 3"  class="rounded-circle" style="height: 10px; width: 10px;"></button>
             </div>
             <div class="carousel-inner" style="height: 50vh;">
                 <div class="carousel-item active h-100">
@@ -82,6 +84,13 @@
                             <h1 class="text-white fs-5">Whatever your <span class="fs-3">OCCASION, <span
                                         class="text-danger">TASTE</span> makes </span> it one to <span span
                                     class="fs-3">remember!</span></h1>
+                                    <div class="header_buttons d-flex flex-row justify-content-center m-5 p-5">
+                                        <button type="button"
+                                            class="btn btn-light text-dark btn-lg button1 rounded-pill text-uppercase m-2">purchase
+                                            theme</button>
+                                        <button type="button" class="btn btn-danger text-white btn-lg button2 rounded-pill text-uppercase m-2">learn
+                                            more</button>
+                                    </div>
                         </div>
                     </div>
                 </div>
@@ -91,6 +100,13 @@
                             <h1 class="text-white fs-5">Whatever your <span class="fs-3">OCCASION, <span
                                         class="text-danger">TASTE</span> makes </span> it one to <span span
                                     class="fs-3">remember!</span></h1>
+                                    <div class="header_buttons d-flex flex-row justify-content-center m-5 p-5">
+                                        <button type="button"
+                                            class="btn btn-light text-dark btn-lg button1 rounded-pill text-uppercase m-2">purchase
+                                            theme</button>
+                                        <button type="button" class="btn btn-danger text-white btn-lg button2 rounded-pill text-uppercase m-2">learn
+                                            more</button>
+                                    </div>
                         </div>
                     </div>
                 </div>
@@ -100,6 +116,13 @@
                             <h1 class="text-white fs-5">Whatever your <span class="fs-3">OCCASION, <span
                                         class="text-danger">TASTE</span> makes </span> it one to <span span
                                     class="fs-3">remember!</span></h1>
+                                    <div class="header_buttons d-flex flex-row justify-content-center m-5 p-5">
+                                        <button type="button"
+                                            class="btn btn-light text-dark btn-lg button1 rounded-pill text-uppercase m-2">purchase
+                                            theme</button>
+                                        <button type="button" class="btn btn-danger text-white btn-lg button2 rounded-pill text-uppercase m-2">learn
+                                            more</button>
+                                    </div>
                         </div>
                     </div>
                 </div>
@@ -107,18 +130,13 @@
         </div>
         <!--Carousel END-->
 
-        <!--Header buttons START-->
-        <div class="header_buttons m-5 p-5">
-            <button type="button"
-                class="btn btn-light text-dark btn-lg button1 rounded-pill text-uppercase m-2">purchase
-                theme</button>
-            <button type="button" class="btn btn-danger text-white btn-lg button2 rounded-pill text-uppercase m-2">learn
-                more</button>
-        </div>
+
+    </header>
+    <div class="deco_container">
         <div class="decoration">
 
         </div>
-    </header>
+    </div>
     <!--Header END-->
     <!--Part1 START-->
     <div class="part1">
@@ -161,20 +179,23 @@
                             <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
                                 aria-selected="true">
-                                <i class="fas fa-mug-hot"></i>
+                                <i class="fas fa-mug-hot fa-2x"></i>
                                 BreakFast</button>
                             <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-profile" type="button" role="tab"
                                 aria-controls="v-pills-profile" aria-selected="false">
-                                <i class="fas fa-hamburger"></i>Lunch</button>
+                                <i class="fas fa-hamburger fa-2x"></i>
+                                Lunch</button>
                             <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-messages" type="button" role="tab"
                                 aria-controls="v-pills-messages" aria-selected="false">
-                                <i class="fas fa-cookie-bite"></i>Snacks</button>
+                                <i class="fas fa-cookie-bite fa-2x"></i>
+                                Snacks</button>
                             <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-settings" type="button" role="tab"
                                 aria-controls="v-pills-settings" aria-selected="false">
-                                <i class="fas fa-mug-hot"></i>Dinner</button>
+                                <i class="fas fa-mug-hot fa-2x"></i>
+                                Dinner</button>
                         </div>
                         <div class="tab-content w-100" id="v-pills-tabContent">
                             <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
@@ -185,7 +206,7 @@
                                             <div class="col-3">
                                                 <img src="./public/images/menu_image_1.jpg" alt="" class="">
                                             </div>
-                                            <div class="col-6 d-flex">
+                                            <div class="col-8 d-flex">
                                                 <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
                                                     restaurant website. Here we try to share our</p>
                                             </div>
@@ -197,7 +218,7 @@
                                             <div class="col-3">
                                                 <img src="./public/images/menu_image_1.jpg" alt="" class="">
                                             </div>
-                                            <div class="col-6">
+                                            <div class="col-8">
                                                 <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
                                                     restaurant website. Here we try to share our</p>
                                             </div>
@@ -209,7 +230,7 @@
                                             <div class="col-3">
                                                 <img src="./public/images/menu_image_1.jpg" alt="" class="">
                                             </div>
-                                            <div class="col-6">
+                                            <div class="col-8">
                                                 <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
                                                     restaurant website. Here we try to share our</p>
                                             </div>
@@ -221,7 +242,7 @@
                                             <div class="col-3">
                                                 <img src="./public/images/menu_image_1.jpg" alt="" class="">
                                             </div>
-                                            <div class="col-6">
+                                            <div class="col-8">
                                                 <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
                                                     restaurant website. Here we try to share our</p>
                                             </div>
@@ -233,7 +254,7 @@
                                             <div class="col-3">
                                                 <img src="./public/images/menu_image_1.jpg" alt="" class="">
                                             </div>
-                                            <div class="col-6">
+                                            <div class="col-8">
                                                 <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
                                                     restaurant website. Here we try to share our</p>
                                             </div>
@@ -245,7 +266,7 @@
                                             <div class="col-3">
                                                 <img src="./public/images/menu_image_1.jpg" alt="" class="">
                                             </div>
-                                            <div class="col-6">
+                                            <div class="col-8">
                                                 <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
                                                     restaurant website. Here we try to share our</p>
                                             </div>
@@ -259,7 +280,7 @@
                                             <div class="col-3">
                                                 <img src="./public/images/menu_image_1.jpg" alt="" class="">
                                             </div>
-                                            <div class="col-6">
+                                            <div class="col-8">
                                                 <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
                                                     restaurant website. Here we try to share our</p>
                                             </div>
@@ -271,7 +292,7 @@
                                             <div class="col-3">
                                                 <img src="./public/images/menu_image_1.jpg" alt="" class="">
                                             </div>
-                                            <div class="col-6">
+                                            <div class="col-8">
                                                 <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
                                                     restaurant website. Here we try to share our</p>
                                             </div>
@@ -283,7 +304,7 @@
                                             <div class="col-3">
                                                 <img src="./public/images/menu_image_1.jpg" alt="" class="">
                                             </div>
-                                            <div class="col-6">
+                                            <div class="col-8">
                                                 <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
                                                     restaurant website. Here we try to share our</p>
                                             </div>
@@ -295,7 +316,7 @@
                                             <div class="col-3">
                                                 <img src="./public/images/menu_image_1.jpg" alt="" class="">
                                             </div>
-                                            <div class="col-6">
+                                            <div class="col-8">
                                                 <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
                                                     restaurant website. Here we try to share our</p>
                                             </div>
@@ -307,7 +328,7 @@
                                             <div class="col-3">
                                                 <img src="./public/images/menu_image_1.jpg" alt="" class="">
                                             </div>
-                                            <div class="col-6">
+                                            <div class="col-8">
                                                 <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
                                                     restaurant website. Here we try to share our</p>
                                             </div>
@@ -319,7 +340,7 @@
                                             <div class="col-3">
                                                 <img src="./public/images/menu_image_1.jpg" alt="" class="">
                                             </div>
-                                            <div class="col-6">
+                                            <div class="col-8">
                                                 <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
                                                     restaurant website. Here we try to share our</p>
                                             </div>
@@ -491,7 +512,7 @@
                                             <div class="col-3">
                                                 <img src="./public/images/menu_image_1.jpg" alt="" class="">
                                             </div>
-                                            <div class="col-6">
+                                            <div class="col-8">
                                                 <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
                                                     restaurant website. Here we try to share our</p>
                                             </div>
@@ -503,7 +524,7 @@
                                             <div class="col-3">
                                                 <img src="./public/images/menu_image_1.jpg" alt="" class="">
                                             </div>
-                                            <div class="col-6">
+                                            <div class="col-8">
                                                 <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
                                                     restaurant website. Here we try to share our</p>
                                             </div>
@@ -515,7 +536,7 @@
                                             <div class="col-3">
                                                 <img src="./public/images/menu_image_1.jpg" alt="" class="">
                                             </div>
-                                            <div class="col-6">
+                                            <div class="col-8">
                                                 <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
                                                     restaurant website. Here we try to share our</p>
                                             </div>
@@ -527,7 +548,7 @@
                                             <div class="col-3">
                                                 <img src="./public/images/menu_image_1.jpg" alt="" class="">
                                             </div>
-                                            <div class="col-6">
+                                            <div class="col-8">
                                                 <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
                                                     restaurant website. Here we try to share our</p>
                                             </div>
@@ -539,7 +560,7 @@
                                             <div class="col-3">
                                                 <img src="./public/images/menu_image_1.jpg" alt="" class="">
                                             </div>
-                                            <div class="col-6">
+                                            <div class="col-8">
                                                 <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
                                                     restaurant website. Here we try to share our</p>
                                             </div>
@@ -551,7 +572,7 @@
                                             <div class="col-3">
                                                 <img src="./public/images/menu_image_1.jpg" alt="" class="">
                                             </div>
-                                            <div class="col-6">
+                                            <div class="col-8">
                                                 <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
                                                     restaurant website. Here we try to share our</p>
                                             </div>
@@ -565,7 +586,7 @@
                                             <div class="col-3">
                                                 <img src="./public/images/menu_image_1.jpg" alt="" class="">
                                             </div>
-                                            <div class="col-6">
+                                            <div class="col-8">
                                                 <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
                                                     restaurant website. Here we try to share our</p>
                                             </div>
@@ -577,7 +598,7 @@
                                             <div class="col-3">
                                                 <img src="./public/images/menu_image_1.jpg" alt="" class="">
                                             </div>
-                                            <div class="col-6">
+                                            <div class="col-8">
                                                 <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
                                                     restaurant website. Here we try to share our</p>
                                             </div>
@@ -589,7 +610,7 @@
                                             <div class="col-3">
                                                 <img src="./public/images/menu_image_1.jpg" alt="" class="">
                                             </div>
-                                            <div class="col-6">
+                                            <div class="col-8">
                                                 <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
                                                     restaurant website. Here we try to share our</p>
                                             </div>
@@ -601,7 +622,7 @@
                                             <div class="col-3">
                                                 <img src="./public/images/menu_image_1.jpg" alt="" class="">
                                             </div>
-                                            <div class="col-6">
+                                            <div class="col-8">
                                                 <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
                                                     restaurant website. Here we try to share our</p>
                                             </div>
@@ -613,7 +634,7 @@
                                             <div class="col-3">
                                                 <img src="./public/images/menu_image_1.jpg" alt="" class="">
                                             </div>
-                                            <div class="col-6">
+                                            <div class="col-8">
                                                 <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
                                                     restaurant website. Here we try to share our</p>
                                             </div>
@@ -625,7 +646,7 @@
                                             <div class="col-3">
                                                 <img src="./public/images/menu_image_1.jpg" alt="" class="">
                                             </div>
-                                            <div class="col-6">
+                                            <div class="col-8">
                                                 <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
                                                     restaurant website. Here we try to share our</p>
                                             </div>
@@ -644,7 +665,7 @@
                                             <div class="col-3">
                                                 <img src="./public/images/menu_image_1.jpg" alt="" class="">
                                             </div>
-                                            <div class="col-6">
+                                            <div class="col-8">
                                                 <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
                                                     restaurant website. Here we try to share our</p>
                                             </div>
@@ -656,7 +677,7 @@
                                             <div class="col-3">
                                                 <img src="./public/images/menu_image_1.jpg" alt="" class="">
                                             </div>
-                                            <div class="col-6">
+                                            <div class="col-8">
                                                 <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
                                                     restaurant website. Here we try to share our</p>
                                             </div>
@@ -668,7 +689,7 @@
                                             <div class="col-3">
                                                 <img src="./public/images/menu_image_1.jpg" alt="" class="">
                                             </div>
-                                            <div class="col-6">
+                                            <div class="col-8">
                                                 <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
                                                     restaurant website. Here we try to share our</p>
                                             </div>
@@ -680,7 +701,7 @@
                                             <div class="col-3">
                                                 <img src="./public/images/menu_image_1.jpg" alt="" class="">
                                             </div>
-                                            <div class="col-6">
+                                            <div class="col-8">
                                                 <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
                                                     restaurant website. Here we try to share our</p>
                                             </div>
@@ -692,7 +713,7 @@
                                             <div class="col-3">
                                                 <img src="./public/images/menu_image_1.jpg" alt="" class="">
                                             </div>
-                                            <div class="col-6">
+                                            <div class="col-8">
                                                 <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
                                                     restaurant website. Here we try to share our</p>
                                             </div>
@@ -704,7 +725,7 @@
                                             <div class="col-3">
                                                 <img src="./public/images/menu_image_1.jpg" alt="" class="">
                                             </div>
-                                            <div class="col-6">
+                                            <div class="col-8">
                                                 <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
                                                     restaurant website. Here we try to share our</p>
                                             </div>
@@ -718,7 +739,7 @@
                                             <div class="col-3">
                                                 <img src="./public/images/menu_image_1.jpg" alt="" class="">
                                             </div>
-                                            <div class="col-6">
+                                            <div class="col-8">
                                                 <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
                                                     restaurant website. Here we try to share our</p>
                                             </div>
@@ -730,7 +751,7 @@
                                             <div class="col-3">
                                                 <img src="./public/images/menu_image_1.jpg" alt="" class="">
                                             </div>
-                                            <div class="col-6">
+                                            <div class="col-8">
                                                 <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
                                                     restaurant website. Here we try to share our</p>
                                             </div>
@@ -742,7 +763,7 @@
                                             <div class="col-3">
                                                 <img src="./public/images/menu_image_1.jpg" alt="" class="">
                                             </div>
-                                            <div class="col-6">
+                                            <div class="col-8">
                                                 <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
                                                     restaurant website. Here we try to share our</p>
                                             </div>
@@ -754,7 +775,7 @@
                                             <div class="col-3">
                                                 <img src="./public/images/menu_image_1.jpg" alt="" class="">
                                             </div>
-                                            <div class="col-6">
+                                            <div class="col-8">
                                                 <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
                                                     restaurant website. Here we try to share our</p>
                                             </div>
@@ -766,7 +787,7 @@
                                             <div class="col-3">
                                                 <img src="./public/images/menu_image_1.jpg" alt="" class="">
                                             </div>
-                                            <div class="col-6">
+                                            <div class="col-8">
                                                 <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
                                                     restaurant website. Here we try to share our</p>
                                             </div>
@@ -778,7 +799,7 @@
                                             <div class="col-3">
                                                 <img src="./public/images/menu_image_1.jpg" alt="" class="">
                                             </div>
-                                            <div class="col-6">
+                                            <div class="col-8">
                                                 <p><strong>Deer Steak with Potatoes</strong><br>Welcome to Risotto
                                                     restaurant website. Here we try to share our</p>
                                             </div>
@@ -834,13 +855,13 @@
         <div class="container">
             <div class="part3_sheet m-4">
                 <img src="./public/images/box-left-top-grey.png" alt="" class="deco-top-left">
-                    <div class="part3_title p-5 text-center">
-                        <h2><span class="text-danger text-uppercase">book</span> Your Table</h2>
-                        <div class="part3_deco">
-                            <img src="./public/images/decoration_line.png" alt="">
-                        </div>
+                <div class="part3_title p-5 text-center">
+                    <h2><span class="text-danger text-uppercase">book</span> Your Table</h2>
+                    <div class="part3_deco">
+                        <img src="./public/images/decoration_line.png" alt="">
                     </div>
-                
+                </div>
+
 
                 <img src="./public/images/box-right-top-grey.png" alt="" class="deco-top-right">
 
@@ -1105,7 +1126,7 @@
     </footer>
     <!--Footer END-->
 
- <!--Script bootstrap-->
+    <!--Script bootstrap-->
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 
 </body>

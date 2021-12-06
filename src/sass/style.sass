@@ -19,18 +19,32 @@ header
                     li
                         border-bottom: 1px solid white 
                         border-top: 1px solid white
+                    li:hover
+                        background-color: red
+                        color:white                    
                     img
                         margin-left: 4%
                         margin-right: 4%
 
-        
+@media only screen and (max-width: 768px)    
+    header
+        nav
+            .container-fluid
+                .collapse
+                    ul
+                        img
+                            display: none
+
+       
             
 
-
+.deco_container    
+    background-color: #535252
     .decoration
         background: url("../../public/images/bottom_decoration_img.png")
         background-repeat: repeat-x
-        height: 20px
+        height: 15px
+        
 .part1
     background: url("../../public/images/main_bg.jpg")
     margin: 0
@@ -75,6 +89,20 @@ header
                 grid-row: 8/9
         .part1_menu
             .container-fluid
+                .nav
+                    button
+                        color: black
+                        background-color: white
+                    
+                        i
+                            color: #e2dada
+                        
+                    button:focus
+                        border-right: 3px solid red
+                        i
+                            color: red
+                    
+
                 .tab-content
                     .tab-pane
                         .row

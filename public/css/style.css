@@ -17250,14 +17250,26 @@ header nav .container-fluid .collapse ul li, header nav .container-sm .collapse 
   border-bottom: 1px solid white;
   border-top: 1px solid white;
 }
+header nav .container-fluid .collapse ul li:hover, header nav .container-sm .collapse ul li:hover, header nav .container-md .collapse ul li:hover, header nav .container-lg .collapse ul li:hover, header nav .container-xl .collapse ul li:hover, header nav .container-xxl .collapse ul li:hover {
+  background-color: red;
+}
 header nav .container-fluid .collapse ul img, header nav .container-sm .collapse ul img, header nav .container-md .collapse ul img, header nav .container-lg .collapse ul img, header nav .container-xl .collapse ul img, header nav .container-xxl .collapse ul img {
   margin-left: 4%;
   margin-right: 4%;
 }
-header .decoration {
+
+@media only screen and (max-width: 768px) {
+  header nav .container-fluid .collapse ul img, header nav .container-sm .collapse ul img, header nav .container-md .collapse ul img, header nav .container-lg .collapse ul img, header nav .container-xl .collapse ul img, header nav .container-xxl .collapse ul img {
+    display: none;
+  }
+}
+.deco_container {
+  background-color: #535252;
+}
+.deco_container .decoration {
   background: url("../../public/images/bottom_decoration_img.png");
   background-repeat: repeat-x;
-  height: 20px;
+  height: 15px;
 }
 
 .part1 {
@@ -17312,6 +17324,19 @@ header .decoration {
 .part1 .container .part1_sheet .deco-bottom-right {
   grid-column: 10/11;
   grid-row: 8/9;
+}
+.part1 .container .part1_menu .container-fluid .nav button, .part1 .container .part1_menu .container-sm .nav button, .part1 .container .part1_menu .container-md .nav button, .part1 .container .part1_menu .container-lg .nav button, .part1 .container .part1_menu .container-xl .nav button, .part1 .container .part1_menu .container-xxl .nav button {
+  color: black;
+  background-color: white;
+}
+.part1 .container .part1_menu .container-fluid .nav button i, .part1 .container .part1_menu .container-sm .nav button i, .part1 .container .part1_menu .container-md .nav button i, .part1 .container .part1_menu .container-lg .nav button i, .part1 .container .part1_menu .container-xl .nav button i, .part1 .container .part1_menu .container-xxl .nav button i {
+  color: #e2dada;
+}
+.part1 .container .part1_menu .container-fluid .nav button:focus, .part1 .container .part1_menu .container-sm .nav button:focus, .part1 .container .part1_menu .container-md .nav button:focus, .part1 .container .part1_menu .container-lg .nav button:focus, .part1 .container .part1_menu .container-xl .nav button:focus, .part1 .container .part1_menu .container-xxl .nav button:focus {
+  border-right: 3px solid red;
+}
+.part1 .container .part1_menu .container-fluid .nav button:focus i, .part1 .container .part1_menu .container-sm .nav button:focus i, .part1 .container .part1_menu .container-md .nav button:focus i, .part1 .container .part1_menu .container-lg .nav button:focus i, .part1 .container .part1_menu .container-xl .nav button:focus i, .part1 .container .part1_menu .container-xxl .nav button:focus i {
+  color: red;
 }
 .part1 .container .part1_menu .container-fluid .tab-content .tab-pane .row .col-6 .menu .col-3, .part1 .container .part1_menu .container-sm .tab-content .tab-pane .row .col-6 .menu .col-3, .part1 .container .part1_menu .container-md .tab-content .tab-pane .row .col-6 .menu .col-3, .part1 .container .part1_menu .container-lg .tab-content .tab-pane .row .col-6 .menu .col-3, .part1 .container .part1_menu .container-xl .tab-content .tab-pane .row .col-6 .menu .col-3, .part1 .container .part1_menu .container-xxl .tab-content .tab-pane .row .col-6 .menu .col-3 {
   display: flex;
